@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 
 const IndexPage = () => (
   <Layout title="Coming Soon - Clean Coming Soon Page (Tailwind CSS, NextJs & HTML5) created by themeptation.net">
-    <img
+    {/* <img
       src="/images/xera.svg"
       alt="Themeptation "
       className="absolute h-96 -top-20 -right-16 lg:right-5 lg:top-10 animate-blob"
@@ -12,6 +12,11 @@ const IndexPage = () => (
       src="/images/shapes.svg"
       alt="hero"
       className="absolute w-full left-24 bottom-24 animate-blob2"
+    /> */}
+    <img
+      src="/images/car.png"
+      alt="hero"
+      className="absolute w-full bottom-24 animate-blob2"
     />
     <div className="relative z-10 py-6 space-y-16 lg:space-y-32 text-gray-900">
       <div className="text-center space-y-10">
@@ -24,7 +29,7 @@ const IndexPage = () => (
           touch!
         </p>
       </div>
-      <form className="relative z-10 mx-10 lg:max-w-xl lg:mx-auto">
+      {/* <form className="relative z-10 mx-10 lg:max-w-xl lg:mx-auto">
         <input
           type="text"
           placeholder="hi@themeptation.net"
@@ -33,7 +38,7 @@ const IndexPage = () => (
         <button className="absolute top-1 right-1 bottom-1 px-4 lg:px-10 text-xl font-semibold bg-gray-900 text-white rounded-xl transition ease-in-out duration-500 hover:bg-red-500">
           Notify me
         </button>
-      </form>
+      </form> */}
     </div>
     <div className="absolute bottom-5">
       <ul className="flex space-x-3">
