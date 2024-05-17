@@ -5,14 +5,23 @@ const IndexPage = () => (
   <div>
     <div className="wrapper">
       <div className="flex items-center justify-center">
-        <img src="./images/logo.png" alt="logo" className="w-60" />
+        <img src="./images/logo.png" alt="logo" className="w-40 md:w-60 mt-[1rem] md:mt-[10rem]" />
       </div>
-      <a href="" className="btn-shine mb-80" target="_blank">
+      <span className="">
+      <p className="heading-1 text-sm md:text-xl">Sri Lanka's largest and most popular vehicle-related services platform.</p>
+      <p className="heading-2 text-xs md:text-lg">Revolutionizing Sri Lanka's vehicle services scene.</p>
+      </span>
+     
+      <a href="" className="btn-shine" target="_blank">
         {" "}
         COMING SOON <span className="dot">.</span>
       </a>
 
-      <div className="content mt-20">
+      <div className="flex items-center justify-center mt-[30px]">
+  <img src="./images/red.png" alt="logo" className="red-car animated-image" />
+</div>
+
+      <div className="content">
         <a
           href="https://www.facebook.com/profile.php?id=61556330501776&mibextid=LQQJ4d"
           className="card"
@@ -20,7 +29,7 @@ const IndexPage = () => (
           <div className="icon">
             <img src="./images/fb.svg" className="w-10" />
           </div>
-          <p className="title">FACEBOOK GROUP</p>
+          <p className="title">FACEBOOK PAGE</p>
         </a>
 
         <a
@@ -31,6 +40,17 @@ const IndexPage = () => (
             <img src="./images/car.svg" className="w-10" />
           </div>
           <p className="title">Car Group</p>
+          {/* <p className="text">Click to see or edit your profile page.</p> */}
+        </a>
+
+        <a
+          href="https://m.facebook.com/groups/288791231599509/?ref=share&mibextid=NSMWBT"
+          className="card"
+        >
+          <div className="icon">
+            <img src="./images/van.svg" className="w-10" />
+          </div>
+          <p className="title">Van Group</p>
           {/* <p className="text">Click to see or edit your profile page.</p> */}
         </a>
 

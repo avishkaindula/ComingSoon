@@ -105,7 +105,7 @@ position: absolute;
   
   @media screen and (max-width: 767px) {
     .btn-shine {
-        font-size: 40px;
+        font-size: 35px;
     }
 }
   @keyframes shine {
@@ -320,7 +320,8 @@ position: absolute;
     width: 100%;
     /* padding: 0 4%;
     padding-top: 250px; */
-    margin-top:8rem;
+    /* margin-top:8rem; */
+    margin-bottom:4rem;
     /* margin: 0 auto; */
     display: flex;
     justify-content: center;
@@ -444,5 +445,66 @@ position: absolute;
     opacity: 1;
     transition: all 0.3s ease;
  }
+
+ .heading-1{
+    font-weight: 600;
+    color: rgb(172, 170, 170);
+    margin: 0 0 .625rem;
+    text-transform: uppercase;
+    letter-spacing: .2143rem;
+  }
+
+
+  .heading-2{
+    font-weight: 400;
+    color: rgb(172, 170, 170);
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: .2143rem;
+  }
+
+  .animated-image {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .animated-image:hover {
+    transform: scale(1.1) rotate(5deg);
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .animated-image {
+    animation: pulse 3s infinite;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .animated-image:hover {
+    transform: scale(1.1) rotate(5deg);
+  }
+
+  .red-car{
+    width:450px;
+    height:300px;
+   
+  }
+
+  @media screen and (max-width: 767px) {
+    .red-car {
+        width:400px;
+        height:250px;
+    }
+}
+  
+  
  
   
